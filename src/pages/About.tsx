@@ -5,9 +5,9 @@ export const About: React.FC = () => {
     <>
       <h1>About</h1>
       <ul>
-        <li><Link to="/"         >Home     </Link></li>
-        <li><Link to="/about"    >About    </Link></li>
-        <li><Link to="/dashboard">Dashboard</Link></li>
+        <li><Link to={'/poc-react-router-loader' + '/'         }>Home     </Link></li>
+        <li><Link to={'/poc-react-router-loader' + '/about'    }>About    </Link></li>
+        <li><Link to={'/poc-react-router-loader' + '/dashboard'}>Dashboard</Link></li>
       </ul>
     </>
   );
